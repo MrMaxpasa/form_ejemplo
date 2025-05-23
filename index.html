@@ -19,7 +19,7 @@
           Some fields are missing
         </div>
         <!-- end alert -->
-        <form method="POST">
+        <form >
         <!-- card - cvc - amount -->
           <div class="d-flex p-2 row">
             <fieldset class="col-md-6">
@@ -64,16 +64,16 @@
                     <div>
                         <label class="form-label d-block py-2">We accept:</label>
                         <div class="d-flex">
-                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" required>
                           <label class="form-check-label" for="radioDefault1"></label>
                           <i class="fab fa-cc-visa fa-2x ps-1 pe-2"></i>
-                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" required>
                           <label class="form-check-label" for="radioDefault2">
                           <i class="fab fa-cc-mastercard fa-2x ps-1 pe-2"></i>
-                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3">
+                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" required>
                           <label class="form-check-label" for="radioDefault3">
                           <i class="fab fa-cc-discover fa-2x ps-1 pe-2"></i>
-                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4">
+                          <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4" required>
                           <label class="form-check-label" for="radioDefault4">
                           <i class="fab fa-cc-paypal fa-2x ps-1 pe-2"></i>
                         </div>
@@ -113,11 +113,11 @@
                 </div>
             </div>
           </div>
+          <div class="text-end">
+            <button type="button" class="btn btn-secondary me-2">Cancel</button>
+            <button type="submit"  class="btn btn-primary">Send</button>
+          </div>
         </form>
-      </div>
-      <div class="card-footer text-end">
-        <button type="button" class="btn btn-secondary me-2">Cancel</button>
-        <button type="submit"  class="btn btn-primary">Send</button>
       </div>
     </div>
   </div>
