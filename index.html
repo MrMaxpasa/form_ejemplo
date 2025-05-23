@@ -25,13 +25,13 @@
             <fieldset class="col-md-6">
                 <div>
                     <label for="cardNumber" class="form-label">Card #</label>
-                    <input type="text" class="form-control" id="cardNumber" placeholder="xxxxxxxxxxxxxxxx">
+                    <input type="text" class="form-control" id="cardNumber" placeholder="xxxxxxxxxxxxxxxx" required>
                 </div>
             </fieldset>
             <fieldset class="col-md-2">
                 <div>
                     <label for="cvc" class="form-label">CVC #</label>
-                    <input type="text" class="form-control" id="cvc" placeholder="0000">
+                    <input type="text" class="form-control" id="cvc" placeholder="0000" required>
                 </div>
             </fieldset>
             <fieldset class="col-md-4">
@@ -39,7 +39,7 @@
                     <label for="amount" class="form-label">Amount</label>
                     <div class="input-group">
                         <span class="input-group-text">$</span>
-                        <input type="text" class="form-control" id="amount" placeholder="Amount">
+                        <input type="text" class="form-control" id="amount" placeholder="Amount" required>
                     </div>
                 </div>
             </fieldset>
@@ -51,7 +51,7 @@
                 <fieldset>
                     <div class="mb-2">
                         <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="">
+                        <input type="text" class="form-control" id="firstName" placeholder="" required>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -85,14 +85,14 @@
                 <fieldset>
                     <div>
                         <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="">
+                        <input type="text" class="form-control" id="lastName" placeholder="" required>
                     </div>
                 </fieldset>
                 <div class="d-flex p-2 mb-2">
                     <fieldset class="col-md-6 pe-2">
                         <div>
                             <label for="state" class="form-label">State</label>
-                            <select id="state" class="form-select">
+                            <select id="state" class="form-select" required>
                                 <option selected>Pick a state</option>
                                 <option>Barcelona</option>
                                 <option>Valencia</option>
@@ -103,13 +103,13 @@
                     <fieldset class="col-md-6">
                         <div>
                             <label for="postalCode" class="form-label">Postal Code</label>
-                            <input type="text" class="form-control" id="postalCode" placeholder="">
+                            <input type="text" class="form-control" id="postalCode" placeholder="" required>
                         </div>
                     </fieldset>
                 </div>
                 <div>
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Add any notes here."></textarea>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Add any notes here." required></textarea>
                 </div>
             </div>
           </div>
